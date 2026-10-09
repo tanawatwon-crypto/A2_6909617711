@@ -19,9 +19,14 @@ body {
 header {
     text-align: center;
     color: #8b1e2d;
-    padding: 25px 20px;
+    padding: 30px 20px;
     background-color: #eeeeee;
     margin-bottom: 25px;
+}
+
+header p {
+    margin-bottom: 0;
+    color: #555555;
 }
 
 h2 {
@@ -55,4 +60,13 @@ footer {
     margin-top: 35px;
     font-size: 0.85rem;
     color: #777777;
+}
+
+.card {
+    border: 1px solid #ccc;
+}
+
+.card-title {
+    color: #8b1e2d;
+    margin-bottom: 20px;
 }
