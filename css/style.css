@@ -17,7 +17,6 @@ body {
 }
 
 header {
-    text-align: center;
     color: #8b1e2d;
     padding: 30px 20px;
     background-color: #eeeeee;
@@ -39,16 +38,8 @@ h3 {
     color: #8b1e2d;
 }
 
-figure {
-    margin: 20px 0;
-}
-
 img {
     border: 2px solid #eeeeee;
-    max-width: 100%;
-}
-figcaption {
-    text-align: inherit;
 }
 
 a {
@@ -56,17 +47,17 @@ a {
 }
 
 footer {
-    text-align: center;
-    margin-top: 35px;
     font-size: 0.85rem;
     color: #777777;
-}
-
-.card {
-    border: 1px solid #ccc;
 }
 
 .card-title {
     color: #8b1e2d;
     margin-bottom: 20px;
+}
+
+.about-content {
+    background-color: #f8f8f8;
+    padding: 30px;
+    border-radius: 8px;
 }
